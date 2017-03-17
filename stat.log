@@ -40,6 +40,7 @@ UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_
 UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 83.53
 UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 83.58
 UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN TOP1 83.35
+UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 82.16
 UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 81.74
 UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 82.16
 UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 81.92
@@ -60,6 +61,7 @@ HMDB51_RGB_S1/vi_vggmpt_d_slcls,epochSize=150,stride=4/model_000,epochSize=150,l
 HMDB51_RGB_S2/vi_vggmpt_d_slcls,epochSize=150,stride=4/model_000,epochSize=150,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 39.61
 HMDB51_RGB_S3/vi_vggmpt_d_slcls,epochSize=150,stride=4/model_000,epochSize=150,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 41.76
 HMDB51 vggm_sdsel
+HMDB51_RGB_S1/vi_vggmpt_sdsel_slcls,diffChance=0.9,epochSize=150,mergeAfter=5,stride=4/model_000,diffChance=0.9,epochSize=150,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 43.99
 HMDB51_RGB_S1/vi_vggmpt_sdsel_slcls,epochSize=150,mergeAfter=5,stride=4/model_000,epochSize=150,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 46.93
 HMDB51_RGB_S1/vi_vggmpt_sdsel_slcls,epochSize=150,mergeAfter=5,stride=4/model_000,epochSize=150,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 46.67
 HMDB51_RGB_S1/vi_vggmpt_sdsel_slcls,epochSize=150,mergeAfter=5,stride=4/model_000,epochSize=150,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 47.19
@@ -84,6 +86,7 @@ HMDB51_RGB_S1/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,
 HMDB51_RGB_S2/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 44.64
 HMDB51_RGB_S3/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 47.97
 HMDB51 vgg16_sdsel
+HMDB51_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 48.76
 HMDB51_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 48.76
 HMDB51_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 48.69
 HMDB51_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 48.76
