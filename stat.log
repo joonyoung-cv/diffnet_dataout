@@ -19,6 +19,7 @@ UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,str
 UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 77.13
 UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 77.40
 UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN TOP1 77.29
+UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,diffChance=0.9,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,diffChance=0.9,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 77.50
 UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 78.03
 UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 77.98
 UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 78.08
@@ -33,6 +34,7 @@ UCF101_RGB_S1/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,
 UCF101_RGB_S2/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 82.59
 UCF101_RGB_S3/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 82.52
 UCF-101 vgg16_sdsel
+UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 84.06
 UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 83.45
 UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 83.32
 UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 83.53
