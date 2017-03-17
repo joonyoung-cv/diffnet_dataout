@@ -10,4 +10,4 @@ for val in vals:
         dirpath = os.path.dirname(val)
         os.system("sort -rk3 {} > {}/val_sorted.log".format(val, dirpath))
         ep = subprocess.check_output("sort -rk3 {} | awk 'NR==1 {{print $1}}'".format(val), shell=True).strip()
-        os.system("cd {} && ln -fs model_{}.t7 model_000.t7".format(dirpath, ep))
+        os.system("cd {} && ln -fs model_{}.t7 model_000.t7 && cd -".format(dirpath, ep))
