@@ -1,58 +1,58 @@
-UCF MEAN TOP1
+UCF MEAN CLASS
 UCF-101 vggm_s
-UCF101_RGB_S1/vi_vggmpt_s_slcls,batchSize=384,epochSize=100/model_000,batchSize=384,epochSize=100,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 74.81
-UCF101_RGB_S2/vi_vggmpt_s_slcls,batchSize=384,epochSize=100/model_000,batchSize=384,epochSize=100,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 71.83
-UCF101_RGB_S3/vi_vggmpt_s_slcls,batchSize=384,epochSize=100/model_000,batchSize=384,epochSize=100,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 72.13
+UCF101_RGB_S1/vi_vggmpt_s_slcls,batchSize=384,epochSize=100/model_000,batchSize=384,epochSize=100,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 74.46
+UCF101_RGB_S2/vi_vggmpt_s_slcls,batchSize=384,epochSize=100/model_000,batchSize=384,epochSize=100,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 71.17
+UCF101_RGB_S3/vi_vggmpt_s_slcls,batchSize=384,epochSize=100/model_000,batchSize=384,epochSize=100,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 71.73
 UCF-101 vggm_d
-UCF101_RGB_S1/vi_vggmpt_d_slcls,batchSize=384,epochSize=199,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 76.61
-UCF101_RGB_S2/vi_vggmpt_d_slcls,batchSize=384,epochSize=199,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 75.52
-UCF101_RGB_S3/vi_vggmpt_d_slcls,batchSize=384,epochSize=199,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 76.98
+UCF101_RGB_S1/vi_vggmpt_d_slcls,batchSize=384,epochSize=199,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 76.48
+UCF101_RGB_S2/vi_vggmpt_d_slcls,batchSize=384,epochSize=199,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 75.17
+UCF101_RGB_S3/vi_vggmpt_d_slcls,batchSize=384,epochSize=199,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 76.43
 UCF-101 vggm_sdsel
-UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 79.04
-UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 78.75
-UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 79.04
-UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 78.69
-UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN TOP1 78.93
-UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,diffChance=0.9,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,diffChance=0.9,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 78.59
-UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 77.08
-UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 77.56
-UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 77.13
-UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 77.40
-UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN TOP1 77.29
-UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,diffChance=0.9,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,diffChance=0.9,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 77.50
-UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 78.03
-UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 77.98
-UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 78.08
-UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 77.98
-UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN TOP1 78.00
-UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,diffChance=0.9,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,diffChance=0.9,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 78.87
+UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 78.73
+UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN CLASS SCORE 78.50
+UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN CLASS SCORE 78.77
+UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 78.53
+UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN CLASS SCORE 78.64
+UCF101_RGB_S1/vi_vggmpt_sdsel_slcls,batchSize=384,diffChance=0.9,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,diffChance=0.9,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 78.40
+UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 76.36
+UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN CLASS SCORE 77.02
+UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN CLASS SCORE 76.49
+UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 76.88
+UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN CLASS SCORE 76.69
+UCF101_RGB_S2/vi_vggmpt_sdsel_slcls,batchSize=384,diffChance=0.9,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,diffChance=0.9,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 76.90
+UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 77.35
+UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN CLASS SCORE 77.28
+UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN CLASS SCORE 77.40
+UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 77.32
+UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN CLASS SCORE 77.31
+UCF101_RGB_S3/vi_vggmpt_sdsel_slcls,batchSize=384,diffChance=0.9,epochSize=199,mergeAfter=5,stride=4/model_000,batchSize=384,diffChance=0.9,epochSize=199,learnRate=1e-4,1e-4,mergeAfter=5,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 78.39
 UCF-101 vgg16_s
-UCF101_RGB_S1/vi_vgg16pt_s_slcls,batchSize=256,epochSize=150/model_000,batchSize=256,epochSize=150,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 81.31
-UCF101_RGB_S2/vi_vgg16pt_s_slcls,batchSize=256,epochSize=150/model_000,batchSize=256,epochSize=150,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 79.51
-UCF101_RGB_S3/vi_vgg16pt_s_slcls,batchSize=256,epochSize=150/model_000,batchSize=256,epochSize=150,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 80.25
+UCF101_RGB_S1/vi_vgg16pt_s_slcls,batchSize=256,epochSize=150/model_000,batchSize=256,epochSize=150,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 80.97
+UCF101_RGB_S2/vi_vgg16pt_s_slcls,batchSize=256,epochSize=150/model_000,batchSize=256,epochSize=150,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 79.00
+UCF101_RGB_S3/vi_vgg16pt_s_slcls,batchSize=256,epochSize=150/model_000,batchSize=256,epochSize=150,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 79.76
 UCF-101 vgg16_d
-UCF101_RGB_S1/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 83.61
-UCF101_RGB_S2/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 82.59
-UCF101_RGB_S3/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 82.52
+UCF101_RGB_S1/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 83.22
+UCF101_RGB_S2/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 82.20
+UCF101_RGB_S3/vi_vgg16pt_d_slcls,batchSize=256,epochSize=299,stride=4/model_000,batchSize=256,epochSize=299,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 82.01
 UCF-101 vgg16_sdsel
-UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 84.06
-UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 83.45
-UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 83.32
-UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 83.53
-UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 83.58
-UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN TOP1 83.35
-UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 82.16
-UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 81.74
-UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 82.16
-UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 81.92
-UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 82.30
-UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN TOP1 82.08
-UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 82.39
-UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 82.60
-UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN TOP1 82.60
-UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN TOP1 82.66
-UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN TOP1 82.49
-UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN TOP1 82.63
+UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 83.72
+UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 83.06
+UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN CLASS SCORE 82.92
+UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN CLASS SCORE 83.14
+UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 83.15
+UCF101_RGB_S1/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN CLASS SCORE 82.93
+UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 81.64
+UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 81.30
+UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN CLASS SCORE 81.76
+UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN CLASS SCORE 81.52
+UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 81.89
+UCF101_RGB_S2/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN CLASS SCORE 81.68
+UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,diffChance=0.9,epochSize=398,stride=4/model_000,batchSize=192,diffChance=0.9,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 82.00
+UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192/test_nc25_1.log:MEAN CLASS SCORE 82.18
+UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.85/test_nc25_1.log:MEAN CLASS SCORE 82.13
+UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.75/test_nc25_1.log:MEAN CLASS SCORE 82.20
+UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.9/test_nc25_1.log:MEAN CLASS SCORE 82.02
+UCF101_RGB_S3/vi_vgg16pt_sdsel_slcls,batchSize=192,epochSize=398,stride=4/model_000,batchSize=192,epochSize=398,learnRate=1e-4,1e-4,stride=4/model_000,batchSize=192,diffChance=0.8/test_nc25_1.log:MEAN CLASS SCORE 82.15
 HMDB MEAN TOP1
 HMDB51 vggm_s
 HMDB51_RGB_S1/vi_vggmpt_s_slcls,epochSize=75/model_000,epochSize=75,learnRate=1e-4,1e-4/model_000,batchSize=192/test_nc25_1.log:MEAN TOP1 39.02
